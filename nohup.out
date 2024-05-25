@@ -1,0 +1,45 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+May 19, 2024 - 12:59:19
+Django version 4.2.13, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[19/May/2024 12:59:30] "GET /todos/ HTTP/1.1" 200 3543
+[19/May/2024 12:59:34] "POST /todos/3/update HTTP/1.1" 302 0
+[19/May/2024 12:59:34] "GET /todos/ HTTP/1.1" 200 3506
+[19/May/2024 12:59:38] "POST /todos/add/ HTTP/1.1" 302 0
+[19/May/2024 12:59:39] "GET /todos/ HTTP/1.1" 200 4091
+[19/May/2024 13:09:29] "GET /todos/ HTTP/1.1" 200 4091
+[19/May/2024 13:09:32] "GET /todos/ HTTP/1.1" 200 4091
+[19/May/2024 13:51:30] "GET /todos/ HTTP/1.1" 200 4091
+[19/May/2024 13:51:32] "GET /todos/ HTTP/1.1" 200 4091
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+May 25, 2024 - 19:10:00
+Django version 4.2.13, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[25/May/2024 19:10:07] "GET / HTTP/1.1" 302 0
+[25/May/2024 19:10:07] "GET /todos HTTP/1.1" 301 0
+[25/May/2024 19:10:07] "GET /todos/ HTTP/1.1" 200 4091
+[25/May/2024 19:10:07] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[25/May/2024 19:10:09] "GET /favicon.ico HTTP/1.1" 404 2572
