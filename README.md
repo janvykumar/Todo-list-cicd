@@ -5,7 +5,7 @@ A simple todo app built with django
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
 ```bash
-$  https://github.com/janvykumar/Todo-list-cicd.git
+$  got clone https://github.com/janvykumar/Todo-list-cicd.git
 ```
 ### Deploying the App using Docker 
 
